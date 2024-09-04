@@ -1,4 +1,4 @@
-# SYCL_compilation_examples
+# SYCL Compilation Examples
 
 Compilation examples using CMake and normal make for the two major SYCL implementations: AdaptiveCpp from the University of Heidelberg and Intel's icpx.
 
