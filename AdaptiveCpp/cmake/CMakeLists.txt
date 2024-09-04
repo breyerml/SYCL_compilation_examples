@@ -1,10 +1,10 @@
 cmake_minimum_required(VERSION 3.12)
 
-project(hipSYCL_Hello_World)
+project(AdaptiveCpp_Hello_World)
 
 
-# find hipSYCL
-find_package(hipSYCL REQUIRED)
+# find AdaptiveCpp
+find_package(AdaptiveCpp REQUIRED)
 
 
 # SYCL 1.2.1

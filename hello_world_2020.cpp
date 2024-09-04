@@ -25,7 +25,7 @@ int main() {
     q.submit([&](sycl::handler& h) {
       sycl::accessor acc_a{buf_a, h, sycl::read_only};
       sycl::accessor acc_b{buf_b, h, sycl::read_only};
-      sycl::accessor acc_c{buf_c, h, sycl::write_only, sycl::noinit};
+      sycl::accessor acc_c{buf_c, h, sycl::write_only, sycl::no_init};
       
       h.parallel_for(size, [=](sycl::id<1> idx) {
         acc_c[idx] = acc_a[idx] + acc_b[idx];
