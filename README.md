@@ -14,4 +14,4 @@ AdaptiveCpp can be downloaded at https://github.com/AdaptiveCpp/AdaptiveCpp.
 
 Can be installed using one of the provided methods at https://software.intel.com/content/www/us/en/develop/tools/oneapi/base-toolkit/download.html.
 
-Modulefiles can be automatically generated with `./path/to/oneAPI/modulefiles-setup.sh --output-dir=OUTPUT_DIR`
+Modulefiles can be automatically generated with `./path/to/icpx/modulefiles-setup.sh --output-dir=OUTPUT_DIR`
